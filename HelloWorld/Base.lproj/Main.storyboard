@@ -35,6 +35,9 @@
                                 <state key="normal" title="Push">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="showTextButtonPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="zob-j5-Xmj"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -47,6 +50,10 @@
                             <constraint firstItem="7Vd-UD-leP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="152" id="K6T-k2-EDS"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="HelloWorldLabel" destination="7Vd-UD-leP" id="95c-pa-SCO"/>
+                        <outlet property="showTextButton" destination="H5Q-di-rdO" id="CuH-DZ-gL5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
